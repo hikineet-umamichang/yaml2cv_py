@@ -7,7 +7,9 @@ reportlabを使用してyamlからpdf形式の履歴書を作成するPythonス�
 ## 実行環境について
 このスクリプトを実行するためには、Pythonの実行環境といくつかのライブラリが必要になります。
 ライブラリは`requirements.txt`に記載していますので、以下のコマンドでインストールしてください。また、仮想環境内で実行することを強くお勧めします。  
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 fontsフォルダにipaexg.ttfを入れておくと、IPAexゴシックで出力されます。
@@ -22,12 +24,16 @@ fontsフォルダにipaexg.ttfを入れておくと、IPAexゴシックで出力
 
 
 コマンドでフォントをダウンロードすることもできます。プロジェクトディレクトリで下記コマンドを実行してください。  
-```curl -O https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip && unzip -o IPAexfont00401.zip && mkdir -p fonts && mv IPAexfont00401/* fonts/ && rm -rf IPAexfont00401 && rm -f IPAexfont00401.zip```
+```
+curl -O https://moji.or.jp/wp-content/ipafont/IPAexfont/IPAexfont00401.zip && unzip -o IPAexfont00401.zip && mkdir -p fonts && mv IPAexfont00401/* fonts/ && rm -rf IPAexfont00401 && rm -f IPAexfont00401.zip
+```
 
 
 ## 簡単な実行方法
 下記コマンドを実行するとプロジェクトディレクトリに`output.pdf`が作成されます。  
-```python yaml2cv.py```
+```
+python yaml2cv.py
+```
 
 ## 実行のカスタマイズ
 コマンドラインオプションで入出力をカスタマイズできます。  
