@@ -1,0 +1,16 @@
+# フォント
+fonts/
+
+# 仮想環境
+venv
+
+# キャッシュ
+__pycache__
+
+# 間違って個人情報を漏らさない用
+*.pdf
+!output_sample.pdf
+
+*.yaml
+!data.yaml
+
