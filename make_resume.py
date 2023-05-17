@@ -183,9 +183,9 @@ def make_resume(output_file, data, font_path, photo_path=None):
             [
                 ("FONT", (0, 0), (1, 5), font, FONTSIZE_label),
                 ("BOX", (0, 0), (1, 5), 1, colors.black),
-                ("FONT", (1, 1), (1, 2), font, FONTSIZE_content),
+                ("FONT", (1, 2), (1, 2), font, FONTSIZE_content),
                 ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-                ("FONT", (1, 4), (1, 5), font, FONTSIZE_content),
+                ("FONT", (1, 5), (1, 5), font, FONTSIZE_content),
                 ("LINEBELOW", (0, 0), (1, 0), 1, colors.black),
                 ("LINEBELOW", (0, 2), (1, 2), 1, colors.black),
                 ("LINEBELOW", (0, 3), (1, 3), 1, colors.black),
