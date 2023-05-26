@@ -3,6 +3,9 @@ reportlabを使用してyamlからpdf形式の履歴書を作成するPythonス�
 
 [kaityo256氏が開発した `yaml_cv`](https://github.com/kaityo256/yaml_cv)と、[@chiba___さんの`Qiita記事`](https://qiita.com/chiba___/items/c91ba97864efceb81f4d)を参照して作成しました。
 
+## 2023/05/27　- 追記
+ほぼ類似のスクリプトとして、[toritamantaro氏が作成した `yaml_cv_py`](https://github.com/toritamantaro/yaml_cv_py)があるようです。
+
 # 使い方
 ## 実行環境について
 このスクリプトを実行するためには、Pythonの実行環境といくつかのライブラリが必要になります。

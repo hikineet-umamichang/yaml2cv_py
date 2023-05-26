@@ -17,3 +17,7 @@ __pycache__
 *.yaml
 !data.yaml
 
+*.md
+!README.md
+
+mydata
